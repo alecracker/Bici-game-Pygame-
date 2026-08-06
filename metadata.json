@@ -1,0 +1,10 @@
+
+{
+  "title": "Bicigame",
+  "author": "Orliana",
+  "version": "1.0",
+  "description": "Eres un ciclista que va por una carretera y debe esquivar obstáculos.",
+  "controls": "Usa las flechas izquierda y derecha para moverte",
+  "entry_point": "Main.py"
+}
+
