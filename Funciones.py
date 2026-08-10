@@ -33,10 +33,6 @@ def carga(img):
         Cayendo = pg.image.load(os.path.join('assets','cayendo.png'))
         Cayendo_opt = pg.transform.scale(Cayendo,(80,80))
         return Cayendo_opt
-    elif img == "agua2":
-        agua2 = pg.image.load(os.path.join('assets','agua2.png'))
-        agua2_opt = pg.transform.scale(agua2,(1280,720))
-        return agua2_opt 
     elif img == "mar":
         mar = pg.image.load(os.path.join('assets','mar.png'))
         mar_opt = pg.transform.scale(mar,(1280,720))

@@ -304,11 +304,8 @@ class Juego:
         pg.display.set_caption("Ciclismo Rapidash")
         self.reloj = pg.time.Clock()
         self.grama = fn.carga("grama")
-        self.grama2 = fn.carga("grama")
-        self.agua2 = fn.carga("agua2")  
+        self.grama2 = fn.carga("grama") 
         self.der = fn.carga("desierto")
-        self.calle = fn.carga("calle")
-        self.calle2= fn.carga("calle")
         self.mar = fn.carga("mar")
         self.lista_niveles = [self.grama,self.der,self.mar]
         self.fondo_down = self.grama
