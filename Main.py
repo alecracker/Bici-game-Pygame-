@@ -2,6 +2,8 @@ import pygame as pg
 from Funciones import carga
 import Clases as cs
 
-# Todo esto será tu nuevo Main.py:
+#AUTORA: ORLIANA ALVARADO 
+#NOMBRE DEL JUEGO: RAPIDASH
+
 juego = cs.Juego()
 juego.ejecutar()
